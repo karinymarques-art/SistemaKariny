@@ -45,7 +45,7 @@ public class JFrmPrincipal extends javax.swing.JFrame {
         jMnuCadastro.setText("cadastros");
 
         jMnuUsuarios.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_U, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMnuUsuarios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/usuario.png"))); // NOI18N
+        jMnuUsuarios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cliente.png"))); // NOI18N
         jMnuUsuarios.setText("Usuarios");
         jMnuUsuarios.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -55,7 +55,7 @@ public class JFrmPrincipal extends javax.swing.JFrame {
         jMnuCadastro.add(jMnuUsuarios);
 
         jMnuClientes.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_C, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMnuClientes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cliente.png"))); // NOI18N
+        jMnuClientes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pessoas30.png"))); // NOI18N
         jMnuClientes.setText("Clientes");
         jMnuClientes.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -65,12 +65,13 @@ public class JFrmPrincipal extends javax.swing.JFrame {
         jMnuCadastro.add(jMnuClientes);
 
         jMnuFornecedor.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMnuFornecedor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icons8-fornecedor-24.png"))); // NOI18N
         jMnuFornecedor.setText("Fornecedor");
         jMnuCadastro.add(jMnuFornecedor);
         jMnuCadastro.add(jSeparator1);
 
         jMnuSair.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_S, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMnuSair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/exit.png"))); // NOI18N
+        jMnuSair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Excluir.png"))); // NOI18N
         jMnuSair.setText("Sair");
         jMnuSair.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -88,6 +89,7 @@ public class JFrmPrincipal extends javax.swing.JFrame {
         jMnuVendas.setMnemonic('v');
         jMnuVendas.setSelected(true);
         jMnuVendas.setText("Vendas");
+        jMnuVendas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icons8-vendas-totais-24.png"))); // NOI18N
         jMnuVendas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMnuVendasActionPerformed(evt);
@@ -99,6 +101,7 @@ public class JFrmPrincipal extends javax.swing.JFrame {
         jMnuCompras.setMnemonic('p');
         jMnuCompras.setSelected(true);
         jMnuCompras.setText("Compras");
+        jMnuCompras.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icons8-carrinho-de-compras-24.png"))); // NOI18N
         jMnuMovimentos.add(jMnuCompras);
 
         jMenuBar1.add(jMnuMovimentos);
@@ -109,11 +112,11 @@ public class JFrmPrincipal extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGap(0, 481, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 277, Short.MAX_VALUE)
+            .addGap(0, 300, Short.MAX_VALUE)
         );
 
         pack();
