@@ -126,8 +126,8 @@ public class JFrmPrincipal extends javax.swing.JFrame {
     private void jMnuUsuariosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuUsuariosActionPerformed
         // TODO add your handling code here:
         //classe letra maiuscula  objeto minuscula chama contructor maiusculo null pai true modal
-        JDlgMpvUsuarios jDlgMpvUsuarios = new JDlgMpvUsuarios(null, true);
-        jDlgMpvUsuarios.setVisible(true);
+        JDlgKsmUsuarios jDlgKsmUsuarios= new JDlgKsmUsuarios(null, true);
+        jDlgKsmUsuarios.setVisible(true);
     }//GEN-LAST:event_jMnuUsuariosActionPerformed
 
     private void jMnuSairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuSairActionPerformed

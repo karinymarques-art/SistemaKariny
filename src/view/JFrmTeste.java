@@ -63,8 +63,6 @@ public class JFrmTeste extends javax.swing.JFrame {
 
         jLblTipo.setText("Tipo");
 
-        jCboTipo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-
         jBtnDesabilitar.setText("Desabilitar");
         jBtnDesabilitar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -153,7 +151,7 @@ public class JFrmTeste extends javax.swing.JFrame {
                     .addComponent(jBtnHabilitar)
                     .addComponent(jBtnInvisivel)
                     .addComponent(jBtnVisivel))
-                .addGap(0, 150, Short.MAX_VALUE))
+                .addGap(0, 13, Short.MAX_VALUE))
         );
 
         pack();
