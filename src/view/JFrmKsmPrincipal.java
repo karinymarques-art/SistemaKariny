@@ -32,6 +32,7 @@ public class JFrmKsmPrincipal extends javax.swing.JFrame {
         jMnuCadastro = new javax.swing.JMenu();
         jMnuUsuarios = new javax.swing.JMenuItem();
         jMnuClientes = new javax.swing.JMenuItem();
+        jMnuFuncionarios = new javax.swing.JMenuItem();
         jMnuFornecedor = new javax.swing.JMenuItem();
         jSeparator1 = new javax.swing.JPopupMenu.Separator();
         jMnuSair = new javax.swing.JMenuItem();
@@ -63,6 +64,16 @@ public class JFrmKsmPrincipal extends javax.swing.JFrame {
             }
         });
         jMnuCadastro.add(jMnuClientes);
+
+        jMnuFuncionarios.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F, java.awt.event.InputEvent.SHIFT_DOWN_MASK | java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMnuFuncionarios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pessoas30.png"))); // NOI18N
+        jMnuFuncionarios.setText("Funcionarios");
+        jMnuFuncionarios.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMnuFuncionariosActionPerformed(evt);
+            }
+        });
+        jMnuCadastro.add(jMnuFuncionarios);
 
         jMnuFornecedor.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMnuFornecedor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icons8-fornecedor-24.png"))); // NOI18N
@@ -155,6 +166,12 @@ public class JFrmKsmPrincipal extends javax.swing.JFrame {
         jDlgKsmFornecedores.setVisible(true);
     }//GEN-LAST:event_jMnuFornecedorActionPerformed
 
+    private void jMnuFuncionariosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuFuncionariosActionPerformed
+        // TODO add your handling code here:
+        JDlgKsmFuncionarios jDlgKsmFuncionarios = new  JDlgKsmFuncionarios(null, true);
+        jDlgKsmFuncionarios.setVisible(true);
+    }//GEN-LAST:event_jMnuFuncionariosActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -197,6 +214,7 @@ public class JFrmKsmPrincipal extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMnuClientes;
     private javax.swing.JRadioButtonMenuItem jMnuCompras;
     private javax.swing.JMenuItem jMnuFornecedor;
+    private javax.swing.JMenuItem jMnuFuncionarios;
     private javax.swing.JMenu jMnuMovimentos;
     private javax.swing.JMenuItem jMnuSair;
     private javax.swing.JMenuItem jMnuUsuarios;

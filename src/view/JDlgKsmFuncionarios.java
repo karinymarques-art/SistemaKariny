@@ -25,7 +25,9 @@ public class JDlgKsmFuncionarios extends javax.swing.JDialog {
         jTxtNome.setEnabled(false);
         jTxtRg.setEnabled(false);
         jTxtEmail.setEnabled(false);
-        
+        jTxtCargo.setEnabled(false);
+        jTxtTelefone.setEnabled(false);
+        jTxtSalario.setEnabled(false);
         jFmtCpf.setEnabled(false);
         jCboAtivo.setEnabled(false);
         jBtnCancelar.setEnabled(false);
@@ -34,11 +36,14 @@ public class JDlgKsmFuncionarios extends javax.swing.JDialog {
      
     }
     public void habilitar(boolean valor){
-    jTxtCodigo.setEnabled(valor);
+        jTxtCodigo.setEnabled(valor);
         jTxtNome.setEnabled(valor);
         jTxtRg.setEnabled(valor);
+        jTxtEmail.setEnabled(valor);
+        jTxtCargo.setEnabled(valor);
+        jTxtTelefone.setEnabled(valor);
+        jTxtSalario.setEnabled(valor);
         jFmtCpf.setEnabled(valor);
-      
         jCboAtivo.setEnabled(valor);
         jBtnCancelar.setEnabled(valor);
         jBtnConfirmar.setEnabled(valor);
@@ -50,11 +55,14 @@ public class JDlgKsmFuncionarios extends javax.swing.JDialog {
     
     }
     public void Desabilitar (){
-                     jTxtCodigo.setEnabled(false);
+        jTxtCodigo.setEnabled(false);
         jTxtNome.setEnabled(false);
         jTxtRg.setEnabled(false);
+        jTxtEmail.setEnabled(false);
+        jTxtCargo.setEnabled(false);
+        jTxtTelefone.setEnabled(false);
+        jTxtSalario.setEnabled(false);
         jFmtCpf.setEnabled(false);
-        
         jCboAtivo.setEnabled(false);
         jBtnCancelar.setEnabled(false);
         jBtnConfirmar.setEnabled(false);
