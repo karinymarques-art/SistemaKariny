@@ -28,7 +28,7 @@ public class JDlgKsmFuncionarios extends javax.swing.JDialog {
         jFmtDataNasc.setEnabled(false);
         jCboNivel.setEnabled(false);
         jPwfSenha.setEnabled(false);
-        jChbAtivo.setEnabled(false);
+        jCboAtivo.setEnabled(false);
         jBtnCancelar.setEnabled(false);
         jBtnConfirmar.setEnabled(false);
         
@@ -42,7 +42,7 @@ public class JDlgKsmFuncionarios extends javax.swing.JDialog {
         jFmtDataNasc.setEnabled(valor);
         jCboNivel.setEnabled(valor);
         jPwfSenha.setEnabled(valor);
-        jChbAtivo.setEnabled(valor);
+        jCboAtivo.setEnabled(valor);
         jBtnCancelar.setEnabled(valor);
         jBtnConfirmar.setEnabled(valor);
 
@@ -60,7 +60,7 @@ public class JDlgKsmFuncionarios extends javax.swing.JDialog {
         jFmtDataNasc.setEnabled(false);
         jCboNivel.setEnabled(false);
         jPwfSenha.setEnabled(false);
-        jChbAtivo.setEnabled(false);
+        jCboAtivo.setEnabled(false);
         jBtnCancelar.setEnabled(false);
         jBtnConfirmar.setEnabled(false);
 
@@ -95,7 +95,7 @@ public class JDlgKsmFuncionarios extends javax.swing.JDialog {
         jCboNivel = new javax.swing.JComboBox<>();
         jLabel6 = new javax.swing.JLabel();
         jPwfSenha = new javax.swing.JPasswordField();
-        jChbAtivo = new javax.swing.JCheckBox();
+        jCboAtivo = new javax.swing.JCheckBox();
         jBtnPesquisar = new javax.swing.JButton();
         jBtnCancelar = new javax.swing.JButton();
         jBtnAlterar = new javax.swing.JButton();
@@ -135,9 +135,13 @@ public class JDlgKsmFuncionarios extends javax.swing.JDialog {
 
         jLabel6.setText("Senha");
 
-        jPwfSenha.setText("jPasswordField1");
+        jPwfSenha.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jPwfSenhaActionPerformed(evt);
+            }
+        });
 
-        jChbAtivo.setText("Ativo");
+        jCboAtivo.setText("Ativo");
 
         jBtnPesquisar.setText("Pesquisar");
         jBtnPesquisar.addActionListener(new java.awt.event.ActionListener() {
@@ -214,7 +218,7 @@ public class JDlgKsmFuncionarios extends javax.swing.JDialog {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(75, 75, 75)
-                                .addComponent(jChbAtivo))
+                                .addComponent(jCboAtivo))
                             .addGroup(layout.createSequentialGroup()
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -267,7 +271,7 @@ public class JDlgKsmFuncionarios extends javax.swing.JDialog {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jPwfSenha, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jChbAtivo))
+                    .addComponent(jCboAtivo))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 44, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jBtnPesquisar)
@@ -328,6 +332,10 @@ public class JDlgKsmFuncionarios extends javax.swing.JDialog {
         
     }//GEN-LAST:event_jBtnPesquisarActionPerformed
 
+    private void jPwfSenhaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jPwfSenhaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jPwfSenhaActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -385,8 +393,8 @@ public class JDlgKsmFuncionarios extends javax.swing.JDialog {
     private javax.swing.JButton jBtnExcluir;
     private javax.swing.JButton jBtnIncluir;
     private javax.swing.JButton jBtnPesquisar;
+    private javax.swing.JCheckBox jCboAtivo;
     private javax.swing.JComboBox<String> jCboNivel;
-    private javax.swing.JCheckBox jChbAtivo;
     private javax.swing.JFormattedTextField jFmtCpf;
     private javax.swing.JFormattedTextField jFmtDataNasc;
     private javax.swing.JLabel jLabel1;
