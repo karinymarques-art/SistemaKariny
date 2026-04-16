@@ -163,9 +163,9 @@ public class JDlgKsmClientes extends javax.swing.JDialog {
             }
         });
 
-        jLabelCpf.setText("CPF");
+        jLabelCpf.setText("Cpf");
 
-        jLabel3.setText("RG");
+        jLabel3.setText("Rg");
 
         jFmtRg.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -263,7 +263,7 @@ public class JDlgKsmClientes extends javax.swing.JDialog {
             }
         });
 
-        jLabel8.setText("CEP");
+        jLabel8.setText("Cep");
 
         jTxtCep.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

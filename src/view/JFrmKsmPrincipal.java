@@ -67,6 +67,11 @@ public class JFrmKsmPrincipal extends javax.swing.JFrame {
         jMnuFornecedor.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMnuFornecedor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icons8-fornecedor-24.png"))); // NOI18N
         jMnuFornecedor.setText("Fornecedor");
+        jMnuFornecedor.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMnuFornecedorActionPerformed(evt);
+            }
+        });
         jMnuCadastro.add(jMnuFornecedor);
         jMnuCadastro.add(jSeparator1);
 
@@ -143,6 +148,12 @@ public class JFrmKsmPrincipal extends javax.swing.JFrame {
     private void jMnuVendasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuVendasActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jMnuVendasActionPerformed
+
+    private void jMnuFornecedorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuFornecedorActionPerformed
+        // TODO add your handling code here:
+        JDlgKsmFornecedores jDlgKsmFornecedores = new JDlgKsmFornecedores(null, true);
+        jDlgKsmFornecedores.setVisible(true);
+    }//GEN-LAST:event_jMnuFornecedorActionPerformed
 
     /**
      * @param args the command line arguments
