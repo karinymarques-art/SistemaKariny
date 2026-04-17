@@ -38,20 +38,19 @@ public class JDlgKsmVeiculos extends javax.swing.JDialog {
      
     }
     public void habilitar(boolean valor){
-        jTxtCodigo.setEnabled(false);
-        jTxtStatus.setEnabled(false);
-        jTxtMarca.setEnabled(false);
-        jTxtModelo.setEnabled(false);
-        jTxtAno.setEnabled(false);
-        jTxtCor.setEnabled(false);
-        jTxtPlaca.setEnabled(false);
-        jTxtChassi.setEnabled(false);
-        jTxtValorCompra.setEnabled(false);
-        jTxtValorVenda.setEnabled(false);
+        jTxtCodigo.setEnabled(valor);
+        jTxtStatus.setEnabled(valor);
+        jTxtMarca.setEnabled(valor);
+        jTxtModelo.setEnabled(valor);
+        jTxtAno.setEnabled(valor);
+        jTxtCor.setEnabled(valor);
+        jTxtPlaca.setEnabled(valor);
+        jTxtChassi.setEnabled(valor);
+        jTxtValorCompra.setEnabled(valor);
+        jTxtValorVenda.setEnabled(valor);
         jTxtFornecedor.setEnabled(valor);
         jBtnCancelar.setEnabled(valor);
         jBtnConfirmar.setEnabled(valor);
-
         jBtnAlterar.setEnabled(! valor);
         jBtnIncluir.setEnabled(! valor);
         jBtnExcluir.setEnabled(! valor);

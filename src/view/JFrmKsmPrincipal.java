@@ -33,7 +33,7 @@ public class JFrmKsmPrincipal extends javax.swing.JFrame {
         jMnuUsuarios = new javax.swing.JMenuItem();
         jMnuClientes = new javax.swing.JMenuItem();
         jMnuFuncionarios = new javax.swing.JMenuItem();
-        jMnuFuncionarios1 = new javax.swing.JMenuItem();
+        jMnuVeiculos = new javax.swing.JMenuItem();
         jMnuFornecedor = new javax.swing.JMenuItem();
         jSeparator1 = new javax.swing.JPopupMenu.Separator();
         jMnuSair = new javax.swing.JMenuItem();
@@ -76,15 +76,15 @@ public class JFrmKsmPrincipal extends javax.swing.JFrame {
         });
         jMnuCadastro.add(jMnuFuncionarios);
 
-        jMnuFuncionarios1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_V, java.awt.event.InputEvent.SHIFT_DOWN_MASK | java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMnuFuncionarios1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icons8-carro-30.png"))); // NOI18N
-        jMnuFuncionarios1.setText("Veiculos");
-        jMnuFuncionarios1.addActionListener(new java.awt.event.ActionListener() {
+        jMnuVeiculos.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_V, java.awt.event.InputEvent.SHIFT_DOWN_MASK | java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMnuVeiculos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icons8-carro-30.png"))); // NOI18N
+        jMnuVeiculos.setText("Veiculos");
+        jMnuVeiculos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMnuFuncionarios1ActionPerformed(evt);
+                jMnuVeiculosActionPerformed(evt);
             }
         });
-        jMnuCadastro.add(jMnuFuncionarios1);
+        jMnuCadastro.add(jMnuVeiculos);
 
         jMnuFornecedor.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F, java.awt.event.InputEvent.SHIFT_DOWN_MASK | java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMnuFornecedor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icons8-fornecedor-24.png"))); // NOI18N
@@ -183,11 +183,11 @@ public class JFrmKsmPrincipal extends javax.swing.JFrame {
         jDlgKsmFuncionarios.setVisible(true);
     }//GEN-LAST:event_jMnuFuncionariosActionPerformed
 
-    private void jMnuFuncionarios1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuFuncionarios1ActionPerformed
+    private void jMnuVeiculosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuVeiculosActionPerformed
         // TODO add your handling code here:
         JDlgKsmVeiculos jDlgKsmVeiculos = new JDlgKsmVeiculos(null, true);
         jDlgKsmVeiculos.setVisible(true);
-    }//GEN-LAST:event_jMnuFuncionarios1ActionPerformed
+    }//GEN-LAST:event_jMnuVeiculosActionPerformed
 
     /**
      * @param args the command line arguments
@@ -232,10 +232,10 @@ public class JFrmKsmPrincipal extends javax.swing.JFrame {
     private javax.swing.JRadioButtonMenuItem jMnuCompras;
     private javax.swing.JMenuItem jMnuFornecedor;
     private javax.swing.JMenuItem jMnuFuncionarios;
-    private javax.swing.JMenuItem jMnuFuncionarios1;
     private javax.swing.JMenu jMnuMovimentos;
     private javax.swing.JMenuItem jMnuSair;
     private javax.swing.JMenuItem jMnuUsuarios;
+    private javax.swing.JMenuItem jMnuVeiculos;
     private javax.swing.JRadioButtonMenuItem jMnuVendas;
     private javax.swing.JPopupMenu.Separator jSeparator1;
     // End of variables declaration//GEN-END:variables
