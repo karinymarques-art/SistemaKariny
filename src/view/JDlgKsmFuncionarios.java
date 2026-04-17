@@ -28,7 +28,7 @@ public class JDlgKsmFuncionarios extends javax.swing.JDialog {
         jTxtCargo.setEnabled(false);
         jTxtTelefone.setEnabled(false);
         jTxtSalario.setEnabled(false);
-        jFmtCpf.setEnabled(false);
+        jFmtCpf.setEnabled(false); 
         jCboAtivo.setEnabled(false);
         jBtnCancelar.setEnabled(false);
         jBtnConfirmar.setEnabled(false);
