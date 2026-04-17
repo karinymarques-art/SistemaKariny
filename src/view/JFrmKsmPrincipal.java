@@ -33,6 +33,7 @@ public class JFrmKsmPrincipal extends javax.swing.JFrame {
         jMnuUsuarios = new javax.swing.JMenuItem();
         jMnuClientes = new javax.swing.JMenuItem();
         jMnuFuncionarios = new javax.swing.JMenuItem();
+        jMnuFuncionarios1 = new javax.swing.JMenuItem();
         jMnuFornecedor = new javax.swing.JMenuItem();
         jSeparator1 = new javax.swing.JPopupMenu.Separator();
         jMnuSair = new javax.swing.JMenuItem();
@@ -65,7 +66,7 @@ public class JFrmKsmPrincipal extends javax.swing.JFrame {
         });
         jMnuCadastro.add(jMnuClientes);
 
-        jMnuFuncionarios.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F, java.awt.event.InputEvent.SHIFT_DOWN_MASK | java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMnuFuncionarios.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMnuFuncionarios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pessoas30.png"))); // NOI18N
         jMnuFuncionarios.setText("Funcionarios");
         jMnuFuncionarios.addActionListener(new java.awt.event.ActionListener() {
@@ -75,7 +76,17 @@ public class JFrmKsmPrincipal extends javax.swing.JFrame {
         });
         jMnuCadastro.add(jMnuFuncionarios);
 
-        jMnuFornecedor.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMnuFuncionarios1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_V, java.awt.event.InputEvent.SHIFT_DOWN_MASK | java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMnuFuncionarios1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icons8-carro-30.png"))); // NOI18N
+        jMnuFuncionarios1.setText("Veiculos");
+        jMnuFuncionarios1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMnuFuncionarios1ActionPerformed(evt);
+            }
+        });
+        jMnuCadastro.add(jMnuFuncionarios1);
+
+        jMnuFornecedor.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F, java.awt.event.InputEvent.SHIFT_DOWN_MASK | java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMnuFornecedor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icons8-fornecedor-24.png"))); // NOI18N
         jMnuFornecedor.setText("Fornecedor");
         jMnuFornecedor.addActionListener(new java.awt.event.ActionListener() {
@@ -113,7 +124,7 @@ public class JFrmKsmPrincipal extends javax.swing.JFrame {
         });
         jMnuMovimentos.add(jMnuVendas);
 
-        jMnuCompras.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_C, java.awt.event.InputEvent.ALT_DOWN_MASK | java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMnuCompras.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_C, java.awt.event.InputEvent.SHIFT_DOWN_MASK | java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMnuCompras.setMnemonic('p');
         jMnuCompras.setSelected(true);
         jMnuCompras.setText("Compras");
@@ -172,6 +183,12 @@ public class JFrmKsmPrincipal extends javax.swing.JFrame {
         jDlgKsmFuncionarios.setVisible(true);
     }//GEN-LAST:event_jMnuFuncionariosActionPerformed
 
+    private void jMnuFuncionarios1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuFuncionarios1ActionPerformed
+        // TODO add your handling code here:
+        JDlgKsmVeiculos jDlgKsmVeiculos = new JDlgKsmVeiculos(null, true);
+        jDlgKsmVeiculos.setVisible(true);
+    }//GEN-LAST:event_jMnuFuncionarios1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -215,6 +232,7 @@ public class JFrmKsmPrincipal extends javax.swing.JFrame {
     private javax.swing.JRadioButtonMenuItem jMnuCompras;
     private javax.swing.JMenuItem jMnuFornecedor;
     private javax.swing.JMenuItem jMnuFuncionarios;
+    private javax.swing.JMenuItem jMnuFuncionarios1;
     private javax.swing.JMenu jMnuMovimentos;
     private javax.swing.JMenuItem jMnuSair;
     private javax.swing.JMenuItem jMnuUsuarios;
