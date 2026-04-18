@@ -18,7 +18,7 @@ public class JDlgKsmVendasVeiculos extends javax.swing.JDialog {
     public JDlgKsmVendasVeiculos(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
-        setTitle("Cadastro de Usúarios");
+        setTitle("Cadastro de Vendas Veiculos");
         setLocationRelativeTo(null);
         
         jTxtCodigo.setEnabled(false);

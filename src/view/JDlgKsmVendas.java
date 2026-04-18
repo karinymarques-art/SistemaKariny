@@ -18,7 +18,7 @@ public class JDlgKsmVendas extends javax.swing.JDialog {
     public JDlgKsmVendas(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
-        setTitle("Cadastro de Usúarios");
+        setTitle("Cadastro de Vendas");
         setLocationRelativeTo(null);
         
         jTxtCodigo.setEnabled(false);
