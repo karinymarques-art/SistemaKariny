@@ -7,7 +7,7 @@
         <Menu class="javax.swing.JMenu" name="jMnuCadastro">
           <Properties>
             <Property name="mnemonic" type="int" value="67"/>
-            <Property name="text" type="java.lang.String" value="cadastros"/>
+            <Property name="text" type="java.lang.String" value="Cadastros"/>
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="jMnuUsuarios">

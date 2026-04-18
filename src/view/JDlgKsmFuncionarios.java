@@ -18,7 +18,7 @@ public class JDlgKsmFuncionarios extends javax.swing.JDialog {
     public JDlgKsmFuncionarios(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
-        setTitle("Cadastro de Usúarios");
+        setTitle("Cadastro de Funcionarios");
         setLocationRelativeTo(null);
         
         jTxtCodigo.setEnabled(false);

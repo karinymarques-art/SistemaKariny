@@ -18,7 +18,7 @@ public class JDlgKsmFornecedores extends javax.swing.JDialog {
     public JDlgKsmFornecedores(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
-        setTitle("Cadastro de Usúarios");
+        setTitle("Cadastro de Fornecedor");
         setLocationRelativeTo(null);
         
         jTxtCodigo.setEnabled(false);
