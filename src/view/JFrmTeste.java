@@ -33,31 +33,31 @@ public class JFrmTeste extends javax.swing.JFrame {
     private void initComponents() {
 
         jLblNome = new javax.swing.JLabel();
-        jTxtNome = new javax.swing.JTextField();
+        jTxtKsmNome = new javax.swing.JTextField();
         jLblTipo = new javax.swing.JLabel();
-        jCboTipo = new javax.swing.JComboBox<>();
+        jCboKsmTipo = new javax.swing.JComboBox<>();
         jBtnDesabilitar = new javax.swing.JButton();
         jBtnHabilitar = new javax.swing.JButton();
         jBtnInvisivel = new javax.swing.JButton();
         jBtnVisivel = new javax.swing.JButton();
-        jBtnTeste = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
+        jBtnKsmTeste = new javax.swing.JButton();
+        jBtnKsmLimpar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLblNome.setText("Nome");
 
-        jTxtNome.addFocusListener(new java.awt.event.FocusAdapter() {
+        jTxtKsmNome.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
-                jTxtNomeFocusGained(evt);
+                jTxtKsmNomeFocusGained(evt);
             }
             public void focusLost(java.awt.event.FocusEvent evt) {
-                jTxtNomeFocusLost(evt);
+                jTxtKsmNomeFocusLost(evt);
             }
         });
-        jTxtNome.addActionListener(new java.awt.event.ActionListener() {
+        jTxtKsmNome.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTxtNomeActionPerformed(evt);
+                jTxtKsmNomeActionPerformed(evt);
             }
         });
 
@@ -91,17 +91,17 @@ public class JFrmTeste extends javax.swing.JFrame {
             }
         });
 
-        jBtnTeste.setText("teste");
-        jBtnTeste.addActionListener(new java.awt.event.ActionListener() {
+        jBtnKsmTeste.setText("teste");
+        jBtnKsmTeste.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnTesteActionPerformed(evt);
+                jBtnKsmTesteActionPerformed(evt);
             }
         });
 
-        jButton1.setText("Limpar");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        jBtnKsmLimpar.setText("Limpar");
+        jBtnKsmLimpar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                jBtnKsmLimparActionPerformed(evt);
             }
         });
 
@@ -115,12 +115,12 @@ public class JFrmTeste extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(jLblNome)
                             .addComponent(jLblTipo)
-                            .addComponent(jCboTipo, 0, 212, Short.MAX_VALUE)
-                            .addComponent(jTxtNome))
+                            .addComponent(jCboKsmTipo, 0, 212, Short.MAX_VALUE)
+                            .addComponent(jTxtKsmNome))
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jButton1)
-                            .addComponent(jBtnTeste)))
+                            .addComponent(jBtnKsmLimpar)
+                            .addComponent(jBtnKsmTeste)))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jBtnDesabilitar)
                         .addGap(18, 18, 18)
@@ -137,14 +137,14 @@ public class JFrmTeste extends javax.swing.JFrame {
                 .addComponent(jLblNome)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTxtNome, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton1))
+                    .addComponent(jTxtKsmNome, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jBtnKsmLimpar))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLblTipo)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jCboTipo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jBtnTeste))
+                    .addComponent(jCboKsmTipo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jBtnKsmTeste))
                 .addGap(31, 31, 31)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jBtnDesabilitar)
@@ -157,14 +157,14 @@ public class JFrmTeste extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jTxtNomeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTxtNomeActionPerformed
+    private void jTxtKsmNomeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTxtKsmNomeActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTxtNomeActionPerformed
+    }//GEN-LAST:event_jTxtKsmNomeActionPerformed
 
     private void jBtnDesabilitarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnDesabilitarActionPerformed
         // TODO add your handling code here:
-        jTxtNome.setEnabled(false);
-        jCboTipo.setEnabled(false);
+        jTxtKsmNome.setEnabled(false);
+        jCboKsmTipo.setEnabled(false);
         jBtnDesabilitar.setEnabled(false);
         jBtnHabilitar.setEnabled(true);
         
@@ -173,16 +173,16 @@ public class JFrmTeste extends javax.swing.JFrame {
 
     private void jBtnHabilitarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnHabilitarActionPerformed
         // TODO add your handling code here:
-        jTxtNome.setEnabled(true);
-        jCboTipo.setEnabled(true);
+        jTxtKsmNome.setEnabled(true);
+        jCboKsmTipo.setEnabled(true);
         jBtnDesabilitar.setEnabled(true);
         jBtnHabilitar.setEnabled(false);
     }//GEN-LAST:event_jBtnHabilitarActionPerformed
 
     private void jBtnInvisivelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnInvisivelActionPerformed
         // TODO add your handling code here:
-        jTxtNome.setVisible(false);
-        jCboTipo.setVisible(false);
+        jTxtKsmNome.setVisible(false);
+        jCboKsmTipo.setVisible(false);
         jBtnDesabilitar.setVisible(false);
         jBtnHabilitar.setVisible(false);
       
@@ -192,8 +192,8 @@ public class JFrmTeste extends javax.swing.JFrame {
 
     private void jBtnVisivelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnVisivelActionPerformed
         // TODO add your handling code here:
-         jTxtNome.setVisible(true);
-        jCboTipo.setVisible(true);
+         jTxtKsmNome.setVisible(true);
+        jCboKsmTipo.setVisible(true);
         jBtnDesabilitar.setVisible(true);
         jBtnHabilitar.setVisible(true);
     jBtnVisivel.setEnabled(false);
@@ -202,7 +202,7 @@ public class JFrmTeste extends javax.swing.JFrame {
        
     }//GEN-LAST:event_jBtnVisivelActionPerformed
 
-    private void jBtnTesteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnTesteActionPerformed
+    private void jBtnKsmTesteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnKsmTesteActionPerformed
         // TODO add your handling code here:
  //        if( jCboTipo.isEnabled() == true){
  //         jTxtNome.setEnabled(false);
@@ -210,27 +210,27 @@ public class JFrmTeste extends javax.swing.JFrame {
  //        }else{
  //            jCboTipo.
    //      }
-   boolean estado= jCboTipo.isEnabled();
-   jTxtNome.setEnabled(!estado);
-   jCboTipo.setEnabled(!estado);
+   boolean estado= jCboKsmTipo.isEnabled();
+   jTxtKsmNome.setEnabled(!estado);
+   jCboKsmTipo.setEnabled(!estado);
       
      
-    }//GEN-LAST:event_jBtnTesteActionPerformed
+    }//GEN-LAST:event_jBtnKsmTesteActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void jBtnKsmLimparActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnKsmLimparActionPerformed
         // TODO add your handling code here:
-        jTxtNome.setText("");
-    }//GEN-LAST:event_jButton1ActionPerformed
+        jTxtKsmNome.setText("");
+    }//GEN-LAST:event_jBtnKsmLimparActionPerformed
 
-    private void jTxtNomeFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTxtNomeFocusGained
+    private void jTxtKsmNomeFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTxtKsmNomeFocusGained
         // TODO add your handling code here:
-        jTxtNome.setBackground(Color.cyan);
-    }//GEN-LAST:event_jTxtNomeFocusGained
+        jTxtKsmNome.setBackground(Color.cyan);
+    }//GEN-LAST:event_jTxtKsmNomeFocusGained
 
-    private void jTxtNomeFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTxtNomeFocusLost
+    private void jTxtKsmNomeFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTxtKsmNomeFocusLost
         // TODO add your handling code here:
-         jTxtNome.setBackground(Color.white);
-    }//GEN-LAST:event_jTxtNomeFocusLost
+         jTxtKsmNome.setBackground(Color.white);
+    }//GEN-LAST:event_jTxtKsmNomeFocusLost
 
     /**
      * @param args the command line arguments
@@ -271,12 +271,12 @@ public class JFrmTeste extends javax.swing.JFrame {
     private javax.swing.JButton jBtnDesabilitar;
     private javax.swing.JButton jBtnHabilitar;
     private javax.swing.JButton jBtnInvisivel;
-    private javax.swing.JButton jBtnTeste;
+    private javax.swing.JButton jBtnKsmLimpar;
+    private javax.swing.JButton jBtnKsmTeste;
     private javax.swing.JButton jBtnVisivel;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JComboBox<String> jCboTipo;
+    private javax.swing.JComboBox<String> jCboKsmTipo;
     private javax.swing.JLabel jLblNome;
     private javax.swing.JLabel jLblTipo;
-    private javax.swing.JTextField jTxtNome;
+    private javax.swing.JTextField jTxtKsmNome;
     // End of variables declaration//GEN-END:variables
 }

@@ -21,53 +21,53 @@ public class JDlgKsmUsuarios extends javax.swing.JDialog {
         setTitle("Cadastro de Usúarios");
         setLocationRelativeTo(null);
         
-        jTxtCodigo.setEnabled(false);
-        jTxtNome.setEnabled(false);
-        jTxtApelido.setEnabled(false);
-        jFmtCpf.setEnabled(false);
-        jFmtDataNasc.setEnabled(false);
-        jCboNivel.setEnabled(false);
-        jPwfSenha.setEnabled(false);
-        jCboAtivo.setEnabled(false);
-        jBtnCancelar.setEnabled(false);
-        jBtnConfirmar.setEnabled(false);
+        jTxtKsmCodigo.setEnabled(false);
+        jTxtKsmNome.setEnabled(false);
+        jTxtKsmApelido.setEnabled(false);
+        jFmtKsmCpf.setEnabled(false);
+        jFmtKsmDataNasc.setEnabled(false);
+        jCboKsmNivel.setEnabled(false);
+        jPwfKsmSenha.setEnabled(false);
+        jCboKsmAtivo.setEnabled(false);
+        jBtnKsmCancelar.setEnabled(false);
+        jBtnKsmConfirmar.setEnabled(false);
         
      
     }
     public void habilitar(boolean valor){
-    jTxtCodigo.setEnabled(valor);
-        jTxtNome.setEnabled(valor);
-        jTxtApelido.setEnabled(valor);
-        jFmtCpf.setEnabled(valor);
-        jFmtDataNasc.setEnabled(valor);
-        jCboNivel.setEnabled(valor);
-        jPwfSenha.setEnabled(valor);
-        jCboAtivo.setEnabled(valor);
-        jBtnCancelar.setEnabled(valor);
-        jBtnConfirmar.setEnabled(valor);
+    jTxtKsmCodigo.setEnabled(valor);
+        jTxtKsmNome.setEnabled(valor);
+        jTxtKsmApelido.setEnabled(valor);
+        jFmtKsmCpf.setEnabled(valor);
+        jFmtKsmDataNasc.setEnabled(valor);
+        jCboKsmNivel.setEnabled(valor);
+        jPwfKsmSenha.setEnabled(valor);
+        jCboKsmAtivo.setEnabled(valor);
+        jBtnKsmCancelar.setEnabled(valor);
+        jBtnKsmConfirmar.setEnabled(valor);
 
-        jBtnAlterar.setEnabled(! valor);
-        jBtnIncluir.setEnabled(! valor);
-        jBtnExcluir.setEnabled(! valor);
-        jBtnPesquisar.setEnabled(! valor);
+        jBtnKsmAlterar.setEnabled(! valor);
+        jBtnKsmIncluir.setEnabled(! valor);
+        jBtnKsmExcluir.setEnabled(! valor);
+        jBtnKsmPesquisar.setEnabled(! valor);
     
     }
     public void Desabilitar (){
-                     jTxtCodigo.setEnabled(false);
-        jTxtNome.setEnabled(false);
-        jTxtApelido.setEnabled(false);
-        jFmtCpf.setEnabled(false);
-        jFmtDataNasc.setEnabled(false);
-        jCboNivel.setEnabled(false);
-        jPwfSenha.setEnabled(false);
-        jCboAtivo.setEnabled(false);
-        jBtnCancelar.setEnabled(false);
-        jBtnConfirmar.setEnabled(false);
+                     jTxtKsmCodigo.setEnabled(false);
+        jTxtKsmNome.setEnabled(false);
+        jTxtKsmApelido.setEnabled(false);
+        jFmtKsmCpf.setEnabled(false);
+        jFmtKsmDataNasc.setEnabled(false);
+        jCboKsmNivel.setEnabled(false);
+        jPwfKsmSenha.setEnabled(false);
+        jCboKsmAtivo.setEnabled(false);
+        jBtnKsmCancelar.setEnabled(false);
+        jBtnKsmConfirmar.setEnabled(false);
 
-        jBtnAlterar.setEnabled(true);
-        jBtnIncluir.setEnabled(true);
-        jBtnExcluir.setEnabled(true);
-        jBtnPesquisar.setEnabled(true);
+        jBtnKsmAlterar.setEnabled(true);
+        jBtnKsmIncluir.setEnabled(true);
+        jBtnKsmExcluir.setEnabled(true);
+        jBtnKsmPesquisar.setEnabled(true);
         
     }
 
@@ -83,25 +83,25 @@ public class JDlgKsmUsuarios extends javax.swing.JDialog {
         jTextField1 = new javax.swing.JTextField();
         Código = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
-        jTxtCodigo = new javax.swing.JTextField();
-        jTxtNome = new javax.swing.JTextField();
+        jTxtKsmCodigo = new javax.swing.JTextField();
+        jTxtKsmNome = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
-        jTxtApelido = new javax.swing.JTextField();
+        jTxtKsmApelido = new javax.swing.JTextField();
         jLabel3 = new javax.swing.JLabel();
-        jFmtCpf = new javax.swing.JFormattedTextField();
+        jFmtKsmCpf = new javax.swing.JFormattedTextField();
         jLabel4 = new javax.swing.JLabel();
-        jFmtDataNasc = new javax.swing.JFormattedTextField();
+        jFmtKsmDataNasc = new javax.swing.JFormattedTextField();
         jLabel5 = new javax.swing.JLabel();
-        jCboNivel = new javax.swing.JComboBox<>();
+        jCboKsmNivel = new javax.swing.JComboBox<>();
         jLabel6 = new javax.swing.JLabel();
-        jPwfSenha = new javax.swing.JPasswordField();
-        jCboAtivo = new javax.swing.JCheckBox();
-        jBtnPesquisar = new javax.swing.JButton();
-        jBtnCancelar = new javax.swing.JButton();
-        jBtnAlterar = new javax.swing.JButton();
-        jBtnIncluir = new javax.swing.JButton();
-        jBtnConfirmar = new javax.swing.JButton();
-        jBtnExcluir = new javax.swing.JButton();
+        jPwfKsmSenha = new javax.swing.JPasswordField();
+        jCboKsmAtivo = new javax.swing.JCheckBox();
+        jBtnKsmPesquisar = new javax.swing.JButton();
+        jBtnKsmCancelar = new javax.swing.JButton();
+        jBtnKsmAlterar = new javax.swing.JButton();
+        jBtnKsmIncluir = new javax.swing.JButton();
+        jBtnKsmConfirmar = new javax.swing.JButton();
+        jBtnKsmExcluir = new javax.swing.JButton();
 
         jTextField1.setText("jTextField1");
 
@@ -111,17 +111,17 @@ public class JDlgKsmUsuarios extends javax.swing.JDialog {
 
         jLabel1.setText("Nome");
 
-        jTxtCodigo.addActionListener(new java.awt.event.ActionListener() {
+        jTxtKsmCodigo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTxtCodigoActionPerformed(evt);
+                jTxtKsmCodigoActionPerformed(evt);
             }
         });
 
         jLabel2.setText("Apelido");
 
-        jTxtApelido.addActionListener(new java.awt.event.ActionListener() {
+        jTxtKsmApelido.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTxtApelidoActionPerformed(evt);
+                jTxtKsmApelidoActionPerformed(evt);
             }
         });
 
@@ -131,57 +131,62 @@ public class JDlgKsmUsuarios extends javax.swing.JDialog {
 
         jLabel5.setText("Nivel");
 
-        jCboNivel.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jCboKsmNivel.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         jLabel6.setText("Senha");
 
-        jCboAtivo.setText("Ativo");
-
-        jBtnPesquisar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pesquisar.png"))); // NOI18N
-        jBtnPesquisar.setText("Pesquisar");
-        jBtnPesquisar.addActionListener(new java.awt.event.ActionListener() {
+        jCboKsmAtivo.setText("Ativo");
+        jCboKsmAtivo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnPesquisarActionPerformed(evt);
+                jCboKsmAtivoActionPerformed(evt);
             }
         });
 
-        jBtnCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cancelar.png"))); // NOI18N
-        jBtnCancelar.setText("Cancelar");
-        jBtnCancelar.addActionListener(new java.awt.event.ActionListener() {
+        jBtnKsmPesquisar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pesquisar.png"))); // NOI18N
+        jBtnKsmPesquisar.setText("Pesquisar");
+        jBtnKsmPesquisar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnCancelarActionPerformed(evt);
+                jBtnKsmPesquisarActionPerformed(evt);
             }
         });
 
-        jBtnAlterar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/alterar.png"))); // NOI18N
-        jBtnAlterar.setText("Alterar");
-        jBtnAlterar.addActionListener(new java.awt.event.ActionListener() {
+        jBtnKsmCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cancelar.png"))); // NOI18N
+        jBtnKsmCancelar.setText("Cancelar");
+        jBtnKsmCancelar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnAlterarActionPerformed(evt);
+                jBtnKsmCancelarActionPerformed(evt);
             }
         });
 
-        jBtnIncluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/incluir.png"))); // NOI18N
-        jBtnIncluir.setText("Incluir");
-        jBtnIncluir.addActionListener(new java.awt.event.ActionListener() {
+        jBtnKsmAlterar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/alterar.png"))); // NOI18N
+        jBtnKsmAlterar.setText("Alterar");
+        jBtnKsmAlterar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnIncluirActionPerformed(evt);
+                jBtnKsmAlterarActionPerformed(evt);
             }
         });
 
-        jBtnConfirmar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/gravar.png"))); // NOI18N
-        jBtnConfirmar.setText("Confirmar");
-        jBtnConfirmar.addActionListener(new java.awt.event.ActionListener() {
+        jBtnKsmIncluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/incluir.png"))); // NOI18N
+        jBtnKsmIncluir.setText("Incluir");
+        jBtnKsmIncluir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnConfirmarActionPerformed(evt);
+                jBtnKsmIncluirActionPerformed(evt);
             }
         });
 
-        jBtnExcluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Excluir.png"))); // NOI18N
-        jBtnExcluir.setText("Excluir");
-        jBtnExcluir.addActionListener(new java.awt.event.ActionListener() {
+        jBtnKsmConfirmar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/gravar.png"))); // NOI18N
+        jBtnKsmConfirmar.setText("Confirmar");
+        jBtnKsmConfirmar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnExcluirActionPerformed(evt);
+                jBtnKsmConfirmarActionPerformed(evt);
+            }
+        });
+
+        jBtnKsmExcluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Excluir.png"))); // NOI18N
+        jBtnKsmExcluir.setText("Excluir");
+        jBtnKsmExcluir.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jBtnKsmExcluirActionPerformed(evt);
             }
         });
 
@@ -190,137 +195,145 @@ public class JDlgKsmUsuarios extends javax.swing.JDialog {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Código)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jLabel4)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel6)
-                                    .addComponent(jPwfSenha, javax.swing.GroupLayout.PREFERRED_SIZE, 142, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel3)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jFmtCpf, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(jCboAtivo))))
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(jLabel5)
+                                    .addComponent(jCboKsmNivel, javax.swing.GroupLayout.PREFERRED_SIZE, 142, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(27, 27, 27)
+                                .addComponent(jCboKsmAtivo))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jBtnIncluir)
-                                .addGap(18, 18, 18)
-                                .addComponent(jBtnAlterar)
-                                .addGap(18, 18, 18)
-                                .addComponent(jBtnExcluir)
-                                .addGap(6, 6, 6)
-                                .addComponent(jBtnConfirmar)
-                                .addGap(6, 6, 6)
-                                .addComponent(jBtnCancelar)))
-                        .addGap(6, 6, 6)
-                        .addComponent(jBtnPesquisar))
+                                .addComponent(jBtnKsmIncluir)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jBtnKsmAlterar)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jBtnKsmExcluir)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jBtnKsmConfirmar)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jBtnKsmCancelar)))
+                        .addGap(18, 18, 18)
+                        .addComponent(jBtnKsmPesquisar))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jLabel5)
-                            .addComponent(jCboNivel, 0, 142, Short.MAX_VALUE)
-                            .addComponent(jTxtCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jFmtDataNasc))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jFmtKsmDataNasc, javax.swing.GroupLayout.DEFAULT_SIZE, 142, Short.MAX_VALUE)
+                            .addComponent(Código)
+                            .addComponent(jTxtKsmCodigo))
+                        .addGap(27, 27, 27)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel1)
-                            .addComponent(jTxtNome, javax.swing.GroupLayout.DEFAULT_SIZE, 274, Short.MAX_VALUE)
+                            .addComponent(jTxtKsmNome, javax.swing.GroupLayout.PREFERRED_SIZE, 274, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel2)
-                            .addComponent(jTxtApelido))))
-                .addContainerGap(40, Short.MAX_VALUE))
+                            .addComponent(jTxtKsmApelido, javax.swing.GroupLayout.PREFERRED_SIZE, 274, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, Short.MAX_VALUE)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel3)
+                            .addComponent(jFmtKsmCpf, javax.swing.GroupLayout.DEFAULT_SIZE, 159, Short.MAX_VALUE)
+                            .addComponent(jLabel6)
+                            .addComponent(jPwfKsmSenha))
+                        .addGap(27, 27, 27)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(Código)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTxtCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel5)
-                    .addComponent(jLabel1))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jCboNivel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTxtNome, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(Código)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jTxtKsmCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jLabel1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jTxtKsmNome, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jLabel3)
+                                .addGap(6, 6, 6)
+                                .addComponent(jFmtKsmCpf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel4)
+                            .addComponent(jLabel2))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jTxtKsmApelido, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jFmtKsmDataNasc, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jLabel6)
+                        .addGap(6, 6, 6)
+                        .addComponent(jPwfKsmSenha, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel4)
-                    .addComponent(jLabel2))
+                .addComponent(jLabel5)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTxtApelido, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jFmtDataNasc, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel6)
-                    .addComponent(jLabel3))
-                .addGap(6, 6, 6)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jPwfSenha, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCboAtivo)
-                    .addComponent(jFmtCpf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(36, 36, 36)
+                    .addComponent(jCboKsmNivel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jCboKsmAtivo))
+                .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jBtnIncluir)
-                    .addComponent(jBtnAlterar)
-                    .addComponent(jBtnExcluir)
-                    .addComponent(jBtnConfirmar)
-                    .addComponent(jBtnCancelar)
-                    .addComponent(jBtnPesquisar)))
+                    .addComponent(jBtnKsmIncluir)
+                    .addComponent(jBtnKsmAlterar)
+                    .addComponent(jBtnKsmExcluir)
+                    .addComponent(jBtnKsmConfirmar)
+                    .addComponent(jBtnKsmCancelar)
+                    .addComponent(jBtnKsmPesquisar)))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jTxtApelidoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTxtApelidoActionPerformed
+    private void jTxtKsmApelidoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTxtKsmApelidoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTxtApelidoActionPerformed
+    }//GEN-LAST:event_jTxtKsmApelidoActionPerformed
 
-    private void jBtnConfirmarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnConfirmarActionPerformed
+    private void jBtnKsmConfirmarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnKsmConfirmarActionPerformed
        // TODO add your handling code here:
       //Desabilitar();
        habilitar(false);
-    }//GEN-LAST:event_jBtnConfirmarActionPerformed
+    }//GEN-LAST:event_jBtnKsmConfirmarActionPerformed
 
-    private void jBtnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnCancelarActionPerformed
+    private void jBtnKsmCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnKsmCancelarActionPerformed
         // TODO add your handling code here:
         //Desabilitar();
          habilitar(false);
-    }//GEN-LAST:event_jBtnCancelarActionPerformed
+    }//GEN-LAST:event_jBtnKsmCancelarActionPerformed
 
-    private void jTxtCodigoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTxtCodigoActionPerformed
+    private void jTxtKsmCodigoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTxtKsmCodigoActionPerformed
         // TODO add your handling code here:
         
-    }//GEN-LAST:event_jTxtCodigoActionPerformed
+    }//GEN-LAST:event_jTxtKsmCodigoActionPerformed
 
-    private void jBtnIncluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnIncluirActionPerformed
+    private void jBtnKsmIncluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnKsmIncluirActionPerformed
         // TODO add your handling code here:
         habilitar(true);
         
-    }//GEN-LAST:event_jBtnIncluirActionPerformed
+    }//GEN-LAST:event_jBtnKsmIncluirActionPerformed
 
-    private void jBtnAlterarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnAlterarActionPerformed
+    private void jBtnKsmAlterarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnKsmAlterarActionPerformed
         // TODO add your handling code here:
           habilitar(true);
-    }//GEN-LAST:event_jBtnAlterarActionPerformed
+    }//GEN-LAST:event_jBtnKsmAlterarActionPerformed
 
-    private void jBtnExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnExcluirActionPerformed
+    private void jBtnKsmExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnKsmExcluirActionPerformed
         // TODO add your handling code here:
         JOptionPane.showConfirmDialog(null, "confirmar a exclusao",
         "Selecione uma opção", JOptionPane.YES_NO_OPTION);
         
-    }//GEN-LAST:event_jBtnExcluirActionPerformed
+    }//GEN-LAST:event_jBtnKsmExcluirActionPerformed
 
-    private void jBtnPesquisarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnPesquisarActionPerformed
+    private void jBtnKsmPesquisarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnKsmPesquisarActionPerformed
         // TODO add your handling code here:
-        JOptionPane.showConfirmDialog(null, "entre com a chave primaria",
-                 "Selecione uma opção", JOptionPane.YES_NO_OPTION);
+        JOptionPane.showConfirmDialog(null, "entre com a chave primaria");
         
-    }//GEN-LAST:event_jBtnPesquisarActionPerformed
+    }//GEN-LAST:event_jBtnKsmPesquisarActionPerformed
+
+    private void jCboKsmAtivoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCboKsmAtivoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCboKsmAtivoActionPerformed
 
     /**
      * @param args the command line arguments
@@ -367,26 +380,26 @@ public class JDlgKsmUsuarios extends javax.swing.JDialog {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Código;
-    private javax.swing.JButton jBtnAlterar;
-    private javax.swing.JButton jBtnCancelar;
-    private javax.swing.JButton jBtnConfirmar;
-    private javax.swing.JButton jBtnExcluir;
-    private javax.swing.JButton jBtnIncluir;
-    private javax.swing.JButton jBtnPesquisar;
-    private javax.swing.JCheckBox jCboAtivo;
-    private javax.swing.JComboBox<String> jCboNivel;
-    private javax.swing.JFormattedTextField jFmtCpf;
-    private javax.swing.JFormattedTextField jFmtDataNasc;
+    private javax.swing.JButton jBtnKsmAlterar;
+    private javax.swing.JButton jBtnKsmCancelar;
+    private javax.swing.JButton jBtnKsmConfirmar;
+    private javax.swing.JButton jBtnKsmExcluir;
+    private javax.swing.JButton jBtnKsmIncluir;
+    private javax.swing.JButton jBtnKsmPesquisar;
+    private javax.swing.JCheckBox jCboKsmAtivo;
+    private javax.swing.JComboBox<String> jCboKsmNivel;
+    private javax.swing.JFormattedTextField jFmtKsmCpf;
+    private javax.swing.JFormattedTextField jFmtKsmDataNasc;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
-    private javax.swing.JPasswordField jPwfSenha;
+    private javax.swing.JPasswordField jPwfKsmSenha;
     private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTxtApelido;
-    private javax.swing.JTextField jTxtCodigo;
-    private javax.swing.JTextField jTxtNome;
+    private javax.swing.JTextField jTxtKsmApelido;
+    private javax.swing.JTextField jTxtKsmCodigo;
+    private javax.swing.JTextField jTxtKsmNome;
     // End of variables declaration//GEN-END:variables
 }

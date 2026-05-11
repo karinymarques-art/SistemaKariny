@@ -21,61 +21,62 @@ public class JDlgKsmVeiculos extends javax.swing.JDialog {
         setTitle("Cadastro de Veiculos");
         setLocationRelativeTo(null);
         
-        jTxtCodigo.setEnabled(false);
-        jTxtStatus.setEnabled(false);
-        jTxtMarca.setEnabled(false);
-        jTxtModelo.setEnabled(false);
-        jTxtAno.setEnabled(false);
-        jTxtCor.setEnabled(false);
-        jTxtPlaca.setEnabled(false);
-        jTxtChassi.setEnabled(false);
-        jTxtValorCompra.setEnabled(false);
-        jTxtValorVenda.setEnabled(false);
-        jTxtFornecedor.setEnabled(false);
-        jBtnCancelar.setEnabled(false);
-        jBtnConfirmar.setEnabled(false);
+        jTxtKsmCodigo.setEnabled(false);
+        jTxtKsmStatus.setEnabled(false);
+        jTxtKsmMarca.setEnabled(false);
+        jTxtKsmModelo.setEnabled(false);
+        jTxtKsmAno.setEnabled(false);
+        jTxtKsmCor.setEnabled(false);
+        jTxtKsmPlaca.setEnabled(false);
+        jTxtKsmChassi.setEnabled(false);
+        jTxtKsmValorCompra.setEnabled(false);
+        jTxtKsmValorVenda.setEnabled(false);
+        
+        
+        jBtnKsmCancelar.setEnabled(false);
+        jBtnKsmConfirmar.setEnabled(false);
         
      
     }
     public void habilitar(boolean valor){
-        jTxtCodigo.setEnabled(valor);
-        jTxtStatus.setEnabled(valor);
-        jTxtMarca.setEnabled(valor);
-        jTxtModelo.setEnabled(valor);
-        jTxtAno.setEnabled(valor);
-        jTxtCor.setEnabled(valor);
-        jTxtPlaca.setEnabled(valor);
-        jTxtChassi.setEnabled(valor);
-        jTxtValorCompra.setEnabled(valor);
-        jTxtValorVenda.setEnabled(valor);
-        jTxtFornecedor.setEnabled(valor);
-        jBtnCancelar.setEnabled(valor);
-        jBtnConfirmar.setEnabled(valor);
-        jBtnAlterar.setEnabled(! valor);
-        jBtnIncluir.setEnabled(! valor);
-        jBtnExcluir.setEnabled(! valor);
-        jBtnPesquisar.setEnabled(! valor);
+        jTxtKsmCodigo.setEnabled(valor);
+        jTxtKsmStatus.setEnabled(valor);
+        jTxtKsmMarca.setEnabled(valor);
+        jTxtKsmModelo.setEnabled(valor);
+        jTxtKsmAno.setEnabled(valor);
+        jTxtKsmCor.setEnabled(valor);
+        jTxtKsmPlaca.setEnabled(valor);
+        jTxtKsmChassi.setEnabled(valor);
+        jTxtKsmValorCompra.setEnabled(valor);
+        jTxtKsmValorVenda.setEnabled(valor);
+      
+        jBtnKsmCancelar.setEnabled(valor);
+        jBtnKsmConfirmar.setEnabled(valor);
+        jBtnKsmAlterar.setEnabled(! valor);
+        jBtnKsmIncluir.setEnabled(! valor);
+        jBtnKsmExcluir.setEnabled(! valor);
+        jBtnKsmPesquisar.setEnabled(! valor);
     
     }
     public void Desabilitar (){
-        jTxtCodigo.setEnabled(false);
-        jTxtStatus.setEnabled(false);
-        jTxtMarca.setEnabled(false);
-        jTxtModelo.setEnabled(false);
-        jTxtAno.setEnabled(false);
-        jTxtCor.setEnabled(false);
-        jTxtPlaca.setEnabled(false);
-        jTxtChassi.setEnabled(false);
-        jTxtValorCompra.setEnabled(false);
-        jTxtValorVenda.setEnabled(false);
-        jTxtFornecedor.setEnabled(false);
-        jBtnCancelar.setEnabled(false);
-        jBtnConfirmar.setEnabled(false);
+        jTxtKsmCodigo.setEnabled(false);
+        jTxtKsmStatus.setEnabled(false);
+        jTxtKsmMarca.setEnabled(false);
+        jTxtKsmModelo.setEnabled(false);
+        jTxtKsmAno.setEnabled(false);
+        jTxtKsmCor.setEnabled(false);
+        jTxtKsmPlaca.setEnabled(false);
+        jTxtKsmChassi.setEnabled(false);
+        jTxtKsmValorCompra.setEnabled(false);
+        jTxtKsmValorVenda.setEnabled(false);
 
-        jBtnAlterar.setEnabled(true);
-        jBtnIncluir.setEnabled(true);
-        jBtnExcluir.setEnabled(true);
-        jBtnPesquisar.setEnabled(true);
+        jBtnKsmCancelar.setEnabled(false);
+        jBtnKsmConfirmar.setEnabled(false);
+
+        jBtnKsmAlterar.setEnabled(true);
+        jBtnKsmIncluir.setEnabled(true);
+        jBtnKsmExcluir.setEnabled(true);
+        jBtnKsmPesquisar.setEnabled(true);
         
     }
 
@@ -90,33 +91,31 @@ public class JDlgKsmVeiculos extends javax.swing.JDialog {
 
         jTextField1 = new javax.swing.JTextField();
         Código = new javax.swing.JLabel();
-        jTxtCodigo = new javax.swing.JTextField();
-        jTxtChassi = new javax.swing.JTextField();
+        jTxtKsmCodigo = new javax.swing.JTextField();
+        jTxtKsmChassi = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
-        jTxtModelo = new javax.swing.JTextField();
+        jTxtKsmModelo = new javax.swing.JTextField();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
-        jBtnPesquisar = new javax.swing.JButton();
-        jBtnCancelar = new javax.swing.JButton();
-        jBtnAlterar = new javax.swing.JButton();
-        jBtnIncluir = new javax.swing.JButton();
-        jBtnConfirmar = new javax.swing.JButton();
-        jBtnExcluir = new javax.swing.JButton();
-        jTxtPlaca = new javax.swing.JTextField();
-        jTxtAno = new javax.swing.JTextField();
+        jBtnKsmPesquisar = new javax.swing.JButton();
+        jBtnKsmCancelar = new javax.swing.JButton();
+        jBtnKsmAlterar = new javax.swing.JButton();
+        jBtnKsmIncluir = new javax.swing.JButton();
+        jBtnKsmConfirmar = new javax.swing.JButton();
+        jBtnKsmExcluir = new javax.swing.JButton();
+        jTxtKsmPlaca = new javax.swing.JTextField();
+        jTxtKsmAno = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jTxtStatus = new javax.swing.JTextField();
+        jTxtKsmStatus = new javax.swing.JTextField();
         Código1 = new javax.swing.JLabel();
-        jTxtMarca = new javax.swing.JTextField();
-        jTxtCor = new javax.swing.JTextField();
-        jTxtValorCompra = new javax.swing.JTextField();
-        jTxtValorVenda = new javax.swing.JTextField();
-        jTxtFornecedor = new javax.swing.JTextField();
+        jTxtKsmMarca = new javax.swing.JTextField();
+        jTxtKsmCor = new javax.swing.JTextField();
+        jTxtKsmValorCompra = new javax.swing.JTextField();
+        jTxtKsmValorVenda = new javax.swing.JTextField();
 
         jTextField1.setText("jTextField1");
 
@@ -124,17 +123,17 @@ public class JDlgKsmVeiculos extends javax.swing.JDialog {
 
         Código.setText("Código");
 
-        jTxtCodigo.addActionListener(new java.awt.event.ActionListener() {
+        jTxtKsmCodigo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTxtCodigoActionPerformed(evt);
+                jTxtKsmCodigoActionPerformed(evt);
             }
         });
 
         jLabel2.setText("Marca");
 
-        jTxtModelo.addActionListener(new java.awt.event.ActionListener() {
+        jTxtKsmModelo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTxtModeloActionPerformed(evt);
+                jTxtKsmModeloActionPerformed(evt);
             }
         });
 
@@ -146,51 +145,51 @@ public class JDlgKsmVeiculos extends javax.swing.JDialog {
 
         jLabel6.setText("Ano");
 
-        jBtnPesquisar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pesquisar.png"))); // NOI18N
-        jBtnPesquisar.setText("Pesquisar");
-        jBtnPesquisar.addActionListener(new java.awt.event.ActionListener() {
+        jBtnKsmPesquisar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pesquisar.png"))); // NOI18N
+        jBtnKsmPesquisar.setText("Pesquisar");
+        jBtnKsmPesquisar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnPesquisarActionPerformed(evt);
+                jBtnKsmPesquisarActionPerformed(evt);
             }
         });
 
-        jBtnCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cancelar.png"))); // NOI18N
-        jBtnCancelar.setText("Cancelar");
-        jBtnCancelar.addActionListener(new java.awt.event.ActionListener() {
+        jBtnKsmCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cancelar.png"))); // NOI18N
+        jBtnKsmCancelar.setText("Cancelar");
+        jBtnKsmCancelar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnCancelarActionPerformed(evt);
+                jBtnKsmCancelarActionPerformed(evt);
             }
         });
 
-        jBtnAlterar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/alterar.png"))); // NOI18N
-        jBtnAlterar.setText("Alterar");
-        jBtnAlterar.addActionListener(new java.awt.event.ActionListener() {
+        jBtnKsmAlterar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/alterar.png"))); // NOI18N
+        jBtnKsmAlterar.setText("Alterar");
+        jBtnKsmAlterar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnAlterarActionPerformed(evt);
+                jBtnKsmAlterarActionPerformed(evt);
             }
         });
 
-        jBtnIncluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/incluir.png"))); // NOI18N
-        jBtnIncluir.setText("Incluir");
-        jBtnIncluir.addActionListener(new java.awt.event.ActionListener() {
+        jBtnKsmIncluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/incluir.png"))); // NOI18N
+        jBtnKsmIncluir.setText("Incluir");
+        jBtnKsmIncluir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnIncluirActionPerformed(evt);
+                jBtnKsmIncluirActionPerformed(evt);
             }
         });
 
-        jBtnConfirmar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/gravar.png"))); // NOI18N
-        jBtnConfirmar.setText("Confirmar");
-        jBtnConfirmar.addActionListener(new java.awt.event.ActionListener() {
+        jBtnKsmConfirmar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/gravar.png"))); // NOI18N
+        jBtnKsmConfirmar.setText("Confirmar");
+        jBtnKsmConfirmar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnConfirmarActionPerformed(evt);
+                jBtnKsmConfirmarActionPerformed(evt);
             }
         });
 
-        jBtnExcluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Excluir.png"))); // NOI18N
-        jBtnExcluir.setText("Excluir");
-        jBtnExcluir.addActionListener(new java.awt.event.ActionListener() {
+        jBtnKsmExcluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Excluir.png"))); // NOI18N
+        jBtnKsmExcluir.setText("Excluir");
+        jBtnKsmExcluir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnExcluirActionPerformed(evt);
+                jBtnKsmExcluirActionPerformed(evt);
             }
         });
 
@@ -200,19 +199,17 @@ public class JDlgKsmVeiculos extends javax.swing.JDialog {
 
         jLabel9.setText("Valor Venda");
 
-        jLabel10.setText("Fornecedor");
-
-        jTxtStatus.addActionListener(new java.awt.event.ActionListener() {
+        jTxtKsmStatus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTxtStatusActionPerformed(evt);
+                jTxtKsmStatusActionPerformed(evt);
             }
         });
 
         Código1.setText("Status");
 
-        jTxtMarca.addActionListener(new java.awt.event.ActionListener() {
+        jTxtKsmMarca.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTxtMarcaActionPerformed(evt);
+                jTxtKsmMarcaActionPerformed(evt);
             }
         });
 
@@ -220,175 +217,171 @@ public class JDlgKsmVeiculos extends javax.swing.JDialog {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jBtnIncluir)
-                .addGap(18, 18, 18)
-                .addComponent(jBtnAlterar)
-                .addGap(18, 18, 18)
-                .addComponent(jBtnExcluir)
-                .addGap(18, 18, 18)
-                .addComponent(jBtnConfirmar)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jBtnCancelar)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jBtnPesquisar)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(Código)
-                    .addComponent(jTxtCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Código1)
-                    .addComponent(jTxtStatus, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTxtKsmCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(jTxtModelo)
-                        .addComponent(jLabel4)
-                        .addComponent(jTxtAno, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 193, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jTxtMarca, javax.swing.GroupLayout.Alignment.TRAILING))
-                    .addComponent(jLabel6)
-                    .addComponent(jLabel2))
-                .addGap(12, 12, 12)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel3)
-                    .addComponent(jLabel5)
-                    .addComponent(jLabel7)
-                    .addComponent(jTxtCor, javax.swing.GroupLayout.DEFAULT_SIZE, 132, Short.MAX_VALUE)
-                    .addComponent(jTxtPlaca)
-                    .addComponent(jTxtChassi))
-                .addGap(18, 18, 18)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(jBtnKsmIncluir)
+                        .addGap(18, 18, 18)
+                        .addComponent(jBtnKsmAlterar)
+                        .addGap(18, 18, 18)
+                        .addComponent(jBtnKsmExcluir)
+                        .addGap(18, 18, 18)
+                        .addComponent(jBtnKsmConfirmar)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(jTxtKsmModelo)
+                                .addComponent(jLabel4)
+                                .addComponent(jTxtKsmAno, javax.swing.GroupLayout.DEFAULT_SIZE, 193, Short.MAX_VALUE)
+                                .addComponent(jTxtKsmMarca))
+                            .addComponent(jLabel6)
+                            .addComponent(jLabel2))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel3)
+                            .addComponent(jLabel5)
+                            .addComponent(jLabel7)
+                            .addComponent(jTxtKsmPlaca)
+                            .addComponent(jTxtKsmChassi)
+                            .addComponent(jTxtKsmCor, javax.swing.GroupLayout.DEFAULT_SIZE, 158, Short.MAX_VALUE))
+                        .addGap(51, 51, 51)))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel10)
-                    .addComponent(jLabel8)
-                    .addComponent(jLabel9)
-                    .addComponent(jTxtValorVenda, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTxtFornecedor, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTxtValorCompra, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel8)
+                            .addComponent(jLabel9)
+                            .addComponent(jTxtKsmValorVenda)
+                            .addComponent(Código1)
+                            .addComponent(jTxtKsmStatus, javax.swing.GroupLayout.DEFAULT_SIZE, 190, Short.MAX_VALUE)
+                            .addComponent(jTxtKsmValorCompra))
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jBtnKsmCancelar)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jBtnKsmPesquisar)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addComponent(Código)
+                .addGap(6, 6, 6)
+                .addComponent(jTxtKsmCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(12, 12, 12)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(Código)
-                        .addGap(6, 6, 6)
-                        .addComponent(jTxtCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(12, 12, 12))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jLabel2)
+                                .addGap(6, 6, 6)
+                                .addComponent(jTxtKsmMarca, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel4)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jTxtKsmModelo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel6)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jLabel8)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jTxtKsmValorCompra, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel9)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jTxtKsmValorVenda, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Código1)
+                                .addGap(6, 6, 6)))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jTxtKsmAno, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTxtKsmStatus, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(Código1)
+                        .addComponent(jLabel3)
                         .addGap(6, 6, 6)
-                        .addComponent(jTxtStatus, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel2)
-                            .addComponent(jLabel3))
-                        .addGap(6, 6, 6)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jTxtMarca, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jTxtCor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jTxtKsmCor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel4)
-                            .addComponent(jLabel5, javax.swing.GroupLayout.Alignment.TRAILING))
+                        .addComponent(jLabel5)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jTxtPlaca, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jTxtModelo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jTxtKsmPlaca, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel6)
-                            .addComponent(jLabel7))
+                        .addComponent(jLabel7)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jTxtAno, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jTxtChassi, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel8)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jTxtValorCompra, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel9)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jTxtValorVenda, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel10)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jTxtFornecedor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(jTxtKsmChassi, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jBtnIncluir)
-                    .addComponent(jBtnAlterar)
+                    .addComponent(jBtnKsmIncluir)
+                    .addComponent(jBtnKsmAlterar)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jBtnExcluir)
-                        .addComponent(jBtnConfirmar)
-                        .addComponent(jBtnCancelar)
-                        .addComponent(jBtnPesquisar)))
+                        .addComponent(jBtnKsmExcluir)
+                        .addComponent(jBtnKsmConfirmar)
+                        .addComponent(jBtnKsmCancelar)
+                        .addComponent(jBtnKsmPesquisar)))
                 .addContainerGap(14, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jTxtModeloActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTxtModeloActionPerformed
+    private void jTxtKsmModeloActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTxtKsmModeloActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTxtModeloActionPerformed
+    }//GEN-LAST:event_jTxtKsmModeloActionPerformed
 
-    private void jBtnConfirmarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnConfirmarActionPerformed
+    private void jBtnKsmConfirmarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnKsmConfirmarActionPerformed
        // TODO add your handling code here:
       //Desabilitar();
        habilitar(false);
-    }//GEN-LAST:event_jBtnConfirmarActionPerformed
+    }//GEN-LAST:event_jBtnKsmConfirmarActionPerformed
 
-    private void jBtnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnCancelarActionPerformed
+    private void jBtnKsmCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnKsmCancelarActionPerformed
         // TODO add your handling code here:
         //Desabilitar();
          habilitar(false);
-    }//GEN-LAST:event_jBtnCancelarActionPerformed
+    }//GEN-LAST:event_jBtnKsmCancelarActionPerformed
 
-    private void jTxtCodigoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTxtCodigoActionPerformed
+    private void jTxtKsmCodigoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTxtKsmCodigoActionPerformed
         // TODO add your handling code here:
         
-    }//GEN-LAST:event_jTxtCodigoActionPerformed
+    }//GEN-LAST:event_jTxtKsmCodigoActionPerformed
 
-    private void jBtnIncluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnIncluirActionPerformed
+    private void jBtnKsmIncluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnKsmIncluirActionPerformed
         // TODO add your handling code here:
         habilitar(true);
         
-    }//GEN-LAST:event_jBtnIncluirActionPerformed
+    }//GEN-LAST:event_jBtnKsmIncluirActionPerformed
 
-    private void jBtnAlterarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnAlterarActionPerformed
+    private void jBtnKsmAlterarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnKsmAlterarActionPerformed
         // TODO add your handling code here:
           habilitar(true);
-    }//GEN-LAST:event_jBtnAlterarActionPerformed
+    }//GEN-LAST:event_jBtnKsmAlterarActionPerformed
 
-    private void jBtnExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnExcluirActionPerformed
+    private void jBtnKsmExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnKsmExcluirActionPerformed
         // TODO add your handling code here:
         JOptionPane.showConfirmDialog(null, "confirmar a exclusao",
         "Selecione uma opção", JOptionPane.YES_NO_OPTION);
         
-    }//GEN-LAST:event_jBtnExcluirActionPerformed
+    }//GEN-LAST:event_jBtnKsmExcluirActionPerformed
 
-    private void jBtnPesquisarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnPesquisarActionPerformed
+    private void jBtnKsmPesquisarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnKsmPesquisarActionPerformed
         // TODO add your handling code here:
-        JOptionPane.showConfirmDialog(null, "entre com a chave primaria",
-                 "Selecione uma opção", JOptionPane.YES_NO_OPTION);
+         JOptionPane.showConfirmDialog(null, "entre com a chave primaria");
         
-    }//GEN-LAST:event_jBtnPesquisarActionPerformed
+    }//GEN-LAST:event_jBtnKsmPesquisarActionPerformed
 
-    private void jTxtStatusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTxtStatusActionPerformed
+    private void jTxtKsmStatusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTxtKsmStatusActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTxtStatusActionPerformed
+    }//GEN-LAST:event_jTxtKsmStatusActionPerformed
 
-    private void jTxtMarcaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTxtMarcaActionPerformed
+    private void jTxtKsmMarcaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTxtKsmMarcaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTxtMarcaActionPerformed
+    }//GEN-LAST:event_jTxtKsmMarcaActionPerformed
 
     /**
      * @param args the command line arguments
@@ -442,13 +435,12 @@ public class JDlgKsmVeiculos extends javax.swing.JDialog {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Código;
     private javax.swing.JLabel Código1;
-    private javax.swing.JButton jBtnAlterar;
-    private javax.swing.JButton jBtnCancelar;
-    private javax.swing.JButton jBtnConfirmar;
-    private javax.swing.JButton jBtnExcluir;
-    private javax.swing.JButton jBtnIncluir;
-    private javax.swing.JButton jBtnPesquisar;
-    private javax.swing.JLabel jLabel10;
+    private javax.swing.JButton jBtnKsmAlterar;
+    private javax.swing.JButton jBtnKsmCancelar;
+    private javax.swing.JButton jBtnKsmConfirmar;
+    private javax.swing.JButton jBtnKsmExcluir;
+    private javax.swing.JButton jBtnKsmIncluir;
+    private javax.swing.JButton jBtnKsmPesquisar;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -458,16 +450,15 @@ public class JDlgKsmVeiculos extends javax.swing.JDialog {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTxtAno;
-    private javax.swing.JTextField jTxtChassi;
-    private javax.swing.JTextField jTxtCodigo;
-    private javax.swing.JTextField jTxtCor;
-    private javax.swing.JTextField jTxtFornecedor;
-    private javax.swing.JTextField jTxtMarca;
-    private javax.swing.JTextField jTxtModelo;
-    private javax.swing.JTextField jTxtPlaca;
-    private javax.swing.JTextField jTxtStatus;
-    private javax.swing.JTextField jTxtValorCompra;
-    private javax.swing.JTextField jTxtValorVenda;
+    private javax.swing.JTextField jTxtKsmAno;
+    private javax.swing.JTextField jTxtKsmChassi;
+    private javax.swing.JTextField jTxtKsmCodigo;
+    private javax.swing.JTextField jTxtKsmCor;
+    private javax.swing.JTextField jTxtKsmMarca;
+    private javax.swing.JTextField jTxtKsmModelo;
+    private javax.swing.JTextField jTxtKsmPlaca;
+    private javax.swing.JTextField jTxtKsmStatus;
+    private javax.swing.JTextField jTxtKsmValorCompra;
+    private javax.swing.JTextField jTxtKsmValorVenda;
     // End of variables declaration//GEN-END:variables
 }

@@ -17,6 +17,8 @@ public class JFrmKsmPrincipal extends javax.swing.JFrame {
         initComponents();
         setTitle("Sistema do IFMS");
         setExtendedState(MAXIMIZED_BOTH);
+        JDlgKsmTelaLogin jDlgKsmTelaLogin = new JDlgKsmTelaLogin(this,true);
+        jDlgKsmTelaLogin.setVisible(true);
     }
 
     /**
@@ -28,117 +30,118 @@ public class JFrmKsmPrincipal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jMenuBar1 = new javax.swing.JMenuBar();
-        jMnuCadastro = new javax.swing.JMenu();
-        jMnuUsuarios = new javax.swing.JMenuItem();
-        jMnuClientes = new javax.swing.JMenuItem();
-        jMnuFuncionarios = new javax.swing.JMenuItem();
-        jMnuVeiculos = new javax.swing.JMenuItem();
-        jMnuFornecedor = new javax.swing.JMenuItem();
-        jSeparator1 = new javax.swing.JPopupMenu.Separator();
-        jMnuSair = new javax.swing.JMenuItem();
-        jMnuMovimentos = new javax.swing.JMenu();
-        jMnuVendas = new javax.swing.JRadioButtonMenuItem();
-        jMnuCompras = new javax.swing.JRadioButtonMenuItem();
+        jMenuBar1Ksm = new javax.swing.JMenuBar();
+        jMnuKsmCadastro = new javax.swing.JMenu();
+        jMnuKsmUsuarios = new javax.swing.JMenuItem();
+        jMnuKsmClientes = new javax.swing.JMenuItem();
+        jMnuKsmFuncionarios = new javax.swing.JMenuItem();
+        jMnuKsmVeiculos = new javax.swing.JMenuItem();
+        jMnuKsmFornecedor = new javax.swing.JMenuItem();
+        jSeparator1Ksm = new javax.swing.JPopupMenu.Separator();
+        jMnuKsmSair = new javax.swing.JMenuItem();
+        jMnuKsmMovimentos = new javax.swing.JMenu();
+        jMnuKsmVendas = new javax.swing.JRadioButtonMenuItem();
+        jMnuKsmCompras = new javax.swing.JRadioButtonMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jMnuCadastro.setMnemonic('U');
-        jMnuCadastro.setText("Cadastros");
+        jMnuKsmCadastro.setMnemonic('d');
+        jMnuKsmCadastro.setText("Cadastros");
 
-        jMnuUsuarios.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_U, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMnuUsuarios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cliente.png"))); // NOI18N
-        jMnuUsuarios.setText("Usuarios");
-        jMnuUsuarios.addActionListener(new java.awt.event.ActionListener() {
+        jMnuKsmUsuarios.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_U, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMnuKsmUsuarios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cliente.png"))); // NOI18N
+        jMnuKsmUsuarios.setMnemonic('U');
+        jMnuKsmUsuarios.setText("Usuarios");
+        jMnuKsmUsuarios.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMnuUsuariosActionPerformed(evt);
+                jMnuKsmUsuariosActionPerformed(evt);
             }
         });
-        jMnuCadastro.add(jMnuUsuarios);
+        jMnuKsmCadastro.add(jMnuKsmUsuarios);
 
-        jMnuClientes.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_C, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMnuClientes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pessoas30.png"))); // NOI18N
-        jMnuClientes.setMnemonic('C');
-        jMnuClientes.setText("Clientes");
-        jMnuClientes.addActionListener(new java.awt.event.ActionListener() {
+        jMnuKsmClientes.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_C, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMnuKsmClientes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icons8-homem-de-negócios-30.png"))); // NOI18N
+        jMnuKsmClientes.setMnemonic('C');
+        jMnuKsmClientes.setText("Clientes");
+        jMnuKsmClientes.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMnuClientesActionPerformed(evt);
+                jMnuKsmClientesActionPerformed(evt);
             }
         });
-        jMnuCadastro.add(jMnuClientes);
+        jMnuKsmCadastro.add(jMnuKsmClientes);
 
-        jMnuFuncionarios.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMnuFuncionarios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pessoas30.png"))); // NOI18N
-        jMnuFuncionarios.setMnemonic('F');
-        jMnuFuncionarios.setText("Funcionarios");
-        jMnuFuncionarios.addActionListener(new java.awt.event.ActionListener() {
+        jMnuKsmFuncionarios.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMnuKsmFuncionarios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icons8-grupo-de-negócios-30.png"))); // NOI18N
+        jMnuKsmFuncionarios.setMnemonic('F');
+        jMnuKsmFuncionarios.setText("Funcionarios");
+        jMnuKsmFuncionarios.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMnuFuncionariosActionPerformed(evt);
+                jMnuKsmFuncionariosActionPerformed(evt);
             }
         });
-        jMnuCadastro.add(jMnuFuncionarios);
+        jMnuKsmCadastro.add(jMnuKsmFuncionarios);
 
-        jMnuVeiculos.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_V, java.awt.event.InputEvent.SHIFT_DOWN_MASK | java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMnuVeiculos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icons8-carro-30.png"))); // NOI18N
-        jMnuVeiculos.setMnemonic('E');
-        jMnuVeiculos.setText("Veiculos");
-        jMnuVeiculos.addActionListener(new java.awt.event.ActionListener() {
+        jMnuKsmVeiculos.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_V, java.awt.event.InputEvent.SHIFT_DOWN_MASK | java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMnuKsmVeiculos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icons8-carro-30.png"))); // NOI18N
+        jMnuKsmVeiculos.setMnemonic('E');
+        jMnuKsmVeiculos.setText("Veiculos");
+        jMnuKsmVeiculos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMnuVeiculosActionPerformed(evt);
+                jMnuKsmVeiculosActionPerformed(evt);
             }
         });
-        jMnuCadastro.add(jMnuVeiculos);
+        jMnuKsmCadastro.add(jMnuKsmVeiculos);
 
-        jMnuFornecedor.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F, java.awt.event.InputEvent.SHIFT_DOWN_MASK | java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMnuFornecedor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icons8-fornecedor-24.png"))); // NOI18N
-        jMnuFornecedor.setMnemonic('O');
-        jMnuFornecedor.setText("Fornecedor");
-        jMnuFornecedor.addActionListener(new java.awt.event.ActionListener() {
+        jMnuKsmFornecedor.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F, java.awt.event.InputEvent.SHIFT_DOWN_MASK | java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMnuKsmFornecedor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icons8-fornecedor-24.png"))); // NOI18N
+        jMnuKsmFornecedor.setMnemonic('O');
+        jMnuKsmFornecedor.setText("Fornecedor");
+        jMnuKsmFornecedor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMnuFornecedorActionPerformed(evt);
+                jMnuKsmFornecedorActionPerformed(evt);
             }
         });
-        jMnuCadastro.add(jMnuFornecedor);
-        jMnuCadastro.add(jSeparator1);
+        jMnuKsmCadastro.add(jMnuKsmFornecedor);
+        jMnuKsmCadastro.add(jSeparator1Ksm);
 
-        jMnuSair.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_S, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMnuSair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Excluir.png"))); // NOI18N
-        jMnuSair.setMnemonic('S');
-        jMnuSair.setText("Sair");
-        jMnuSair.addActionListener(new java.awt.event.ActionListener() {
+        jMnuKsmSair.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_S, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMnuKsmSair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/exit_1.png"))); // NOI18N
+        jMnuKsmSair.setMnemonic('S');
+        jMnuKsmSair.setText("Sair");
+        jMnuKsmSair.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMnuSairActionPerformed(evt);
+                jMnuKsmSairActionPerformed(evt);
             }
         });
-        jMnuCadastro.add(jMnuSair);
+        jMnuKsmCadastro.add(jMnuKsmSair);
 
-        jMenuBar1.add(jMnuCadastro);
+        jMenuBar1Ksm.add(jMnuKsmCadastro);
 
-        jMnuMovimentos.setMnemonic('M');
-        jMnuMovimentos.setText("Movimentos");
+        jMnuKsmMovimentos.setMnemonic('M');
+        jMnuKsmMovimentos.setText("Movimentos");
 
-        jMnuVendas.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_V, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMnuVendas.setMnemonic('v');
-        jMnuVendas.setSelected(true);
-        jMnuVendas.setText("Vendas");
-        jMnuVendas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icons8-vendas-totais-24.png"))); // NOI18N
-        jMnuVendas.addActionListener(new java.awt.event.ActionListener() {
+        jMnuKsmVendas.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_V, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMnuKsmVendas.setMnemonic('v');
+        jMnuKsmVendas.setSelected(true);
+        jMnuKsmVendas.setText("Vendas");
+        jMnuKsmVendas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icons8-vendas-totais-24.png"))); // NOI18N
+        jMnuKsmVendas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMnuVendasActionPerformed(evt);
+                jMnuKsmVendasActionPerformed(evt);
             }
         });
-        jMnuMovimentos.add(jMnuVendas);
+        jMnuKsmMovimentos.add(jMnuKsmVendas);
 
-        jMnuCompras.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_C, java.awt.event.InputEvent.SHIFT_DOWN_MASK | java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMnuCompras.setMnemonic('p');
-        jMnuCompras.setSelected(true);
-        jMnuCompras.setText("Compras");
-        jMnuCompras.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icons8-carrinho-de-compras-24.png"))); // NOI18N
-        jMnuMovimentos.add(jMnuCompras);
+        jMnuKsmCompras.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_C, java.awt.event.InputEvent.SHIFT_DOWN_MASK | java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMnuKsmCompras.setMnemonic('p');
+        jMnuKsmCompras.setSelected(true);
+        jMnuKsmCompras.setText("Compras");
+        jMnuKsmCompras.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icons8-carrinho-de-compras-24.png"))); // NOI18N
+        jMnuKsmMovimentos.add(jMnuKsmCompras);
 
-        jMenuBar1.add(jMnuMovimentos);
+        jMenuBar1Ksm.add(jMnuKsmMovimentos);
 
-        setJMenuBar(jMenuBar1);
+        setJMenuBar(jMenuBar1Ksm);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -148,51 +151,51 @@ public class JFrmKsmPrincipal extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGap(0, 170, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jMnuClientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuClientesActionPerformed
+    private void jMnuKsmClientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuKsmClientesActionPerformed
         // TODO add your handling code here:
         JDlgKsmClientes jDlgKsmClientes = new JDlgKsmClientes(null, true);
         jDlgKsmClientes.setVisible(true);
-    }//GEN-LAST:event_jMnuClientesActionPerformed
+    }//GEN-LAST:event_jMnuKsmClientesActionPerformed
 
-    private void jMnuUsuariosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuUsuariosActionPerformed
+    private void jMnuKsmUsuariosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuKsmUsuariosActionPerformed
         // TODO add your handling code here:
         //classe letra maiuscula  objeto minuscula chama contructor maiusculo null pai true modal
         JDlgKsmUsuarios jDlgKsmUsuarios= new JDlgKsmUsuarios(null, true);
         jDlgKsmUsuarios.setVisible(true);
-    }//GEN-LAST:event_jMnuUsuariosActionPerformed
+    }//GEN-LAST:event_jMnuKsmUsuariosActionPerformed
 
-    private void jMnuSairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuSairActionPerformed
+    private void jMnuKsmSairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuKsmSairActionPerformed
         // TODO add your handling code here:
         System.exit(0);
-    }//GEN-LAST:event_jMnuSairActionPerformed
+    }//GEN-LAST:event_jMnuKsmSairActionPerformed
 
-    private void jMnuVendasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuVendasActionPerformed
+    private void jMnuKsmVendasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuKsmVendasActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jMnuVendasActionPerformed
+    }//GEN-LAST:event_jMnuKsmVendasActionPerformed
 
-    private void jMnuFornecedorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuFornecedorActionPerformed
+    private void jMnuKsmFornecedorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuKsmFornecedorActionPerformed
         // TODO add your handling code here:
         JDlgKsmFornecedores jDlgKsmFornecedores = new JDlgKsmFornecedores(null, true);
         jDlgKsmFornecedores.setVisible(true);
-    }//GEN-LAST:event_jMnuFornecedorActionPerformed
+    }//GEN-LAST:event_jMnuKsmFornecedorActionPerformed
 
-    private void jMnuFuncionariosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuFuncionariosActionPerformed
+    private void jMnuKsmFuncionariosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuKsmFuncionariosActionPerformed
         // TODO add your handling code here:
         JDlgKsmFuncionarios jDlgKsmFuncionarios = new  JDlgKsmFuncionarios(null, true);
         jDlgKsmFuncionarios.setVisible(true);
-    }//GEN-LAST:event_jMnuFuncionariosActionPerformed
+    }//GEN-LAST:event_jMnuKsmFuncionariosActionPerformed
 
-    private void jMnuVeiculosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuVeiculosActionPerformed
+    private void jMnuKsmVeiculosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuKsmVeiculosActionPerformed
         // TODO add your handling code here:
         JDlgKsmVeiculos jDlgKsmVeiculos = new JDlgKsmVeiculos(null, true);
         jDlgKsmVeiculos.setVisible(true);
-    }//GEN-LAST:event_jMnuVeiculosActionPerformed
+    }//GEN-LAST:event_jMnuKsmVeiculosActionPerformed
 
     /**
      * @param args the command line arguments
@@ -231,17 +234,17 @@ public class JFrmKsmPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JMenu jMnuCadastro;
-    private javax.swing.JMenuItem jMnuClientes;
-    private javax.swing.JRadioButtonMenuItem jMnuCompras;
-    private javax.swing.JMenuItem jMnuFornecedor;
-    private javax.swing.JMenuItem jMnuFuncionarios;
-    private javax.swing.JMenu jMnuMovimentos;
-    private javax.swing.JMenuItem jMnuSair;
-    private javax.swing.JMenuItem jMnuUsuarios;
-    private javax.swing.JMenuItem jMnuVeiculos;
-    private javax.swing.JRadioButtonMenuItem jMnuVendas;
-    private javax.swing.JPopupMenu.Separator jSeparator1;
+    private javax.swing.JMenuBar jMenuBar1Ksm;
+    private javax.swing.JMenu jMnuKsmCadastro;
+    private javax.swing.JMenuItem jMnuKsmClientes;
+    private javax.swing.JRadioButtonMenuItem jMnuKsmCompras;
+    private javax.swing.JMenuItem jMnuKsmFornecedor;
+    private javax.swing.JMenuItem jMnuKsmFuncionarios;
+    private javax.swing.JMenu jMnuKsmMovimentos;
+    private javax.swing.JMenuItem jMnuKsmSair;
+    private javax.swing.JMenuItem jMnuKsmUsuarios;
+    private javax.swing.JMenuItem jMnuKsmVeiculos;
+    private javax.swing.JRadioButtonMenuItem jMnuKsmVendas;
+    private javax.swing.JPopupMenu.Separator jSeparator1Ksm;
     // End of variables declaration//GEN-END:variables
 }
